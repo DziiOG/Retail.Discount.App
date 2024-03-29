@@ -31,7 +31,7 @@ Open your terminal and navigate to the folder you want the project to be and ent
 #### 1. Clone Project
 
 ```bash
-git clone https://hubtel@dev.azure.com/hubtel/Back-End/_git/Hubtel.Health
+git clone https://github.com/DziiOG/Retail.Discount.App.git
 ```
 
 #### 2. Install project packages and libraries
@@ -39,49 +39,17 @@ git clone https://hubtel@dev.azure.com/hubtel/Back-End/_git/Hubtel.Health
 dotnet restore --interactive
 ```
 ### Usage
-#### Application settings in appsettings.jon
-Make sure the configurations in the appsettings are up to date with your environment
 #### 3. Run the project
 ```bash
 dotnet run
 ```
 
-# Flows
+### 4. Run Tests
+```bash
+dotnet test --collect:"XPlat Code Coverage"
+```
 
-## Stock Management Flow
-![Stock Management Flow](./docs/images/Hubtel-Health-StockManagement-Flow.drawio.png)
-
-## Discharge Flow
-![Discharge Flow](./docs/images/Hubtel%20Health%20Discharge%20Flow.drawio.png)
-
-# Architecture
-
-## Caregiver Portal
-![Caregiver Portal Architecture](./docs/images/Health-New-Arch-Caregiver-Portal.drawio.png)
-
-## Finance Portal
-![Finance Portal Architecture](./docs/images/Health-New-Arch-Finance-Portal.drawio.png)
-
-## Patients Portal
-![Patient Portal Architecture](./docs/images/Health-New%20Arch-Patients%20Portal.drawio.png)
-
-# Releases
-### Latest releases
-1. [Caregiver API Release-133](https://dev.azure.com/hubtel/Back-End/_releaseProgress?_a=release-pipeline-progress&releaseId=14784)
-2. [Patient API Release-113](https://dev.azure.com/hubtel/Back-End/_releaseProgress?_a=release-pipeline-progress&releaseId=14593)
-3. [Finance API Release-87](https://dev.azure.com/hubtel/Back-End/_releaseProgress?_a=release-pipeline-progress&releaseId=14785)
-4. [Auth API-11](https://dev.azure.com/hubtel/Back-End/_releaseProgress?_a=release-pipeline-progress&releaseId=14177)
-5. [Banks API-7](https://dev.azure.com/hubtel/Back-End/_releaseProgress?_a=release-pipeline-progress&releaseId=12999)
-6. [Notifications API-1](https://dev.azure.com/hubtel/Back-End/_releaseProgress?_a=release-pipeline-progress&releaseId=14023)
-7. [Onboarding API-11](https://dev.azure.com/hubtel/Back-End/_releaseProgress?_a=release-pipeline-progress&releaseId=14753)
-8. [USSD API-16](https://dev.azure.com/hubtel/Back-End/_releaseProgress?_a=release-pipeline-progress&releaseId=13071)
 
 ## Authors
+👤 **[Whitson Dzimah](whitsonwilliam@icloud.com)**
 
-👤 **[Evans Prah](evans.prah@hubtel.com)**
-👤 **[Whitson Dzimah](whitson.dzimah@hubtel.com)**
-👤 **[Charles Manu](charles.manu@hubtel.com)**
-👤 **[Michael Nchor](michael.nchor@hubtel.com)**
-👤 **[Prince Ackom](prince.ackom@hubtel.com)**
-👤 **[Sarah Mensah](sarah.mensah@hubtel.com)**
-👤 **[Richmond Tweneboanah](richmond.tweneboana@hubtel.com)**

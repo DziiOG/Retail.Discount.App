@@ -1,7 +1,5 @@
 ﻿# Welcome to Retail Dicount App 👋
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
-[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://dev.azure.com/hubtel/Back-End/_git/Hubtel.Health?version=GBmaster&path=/README.md&_a=preview)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://dev.azure.com/hubtel/Back-End/_git/Hubtel.Health?version=GBmaster&_a=history)
 
 # Introduction
 The Retail Discount Application is a console-based application designed to calculate discounts on retail purchases based on various user attributes and bill amounts. The application adheres to a set of discount rules applicable to different user types and bill totals.
@@ -12,7 +10,6 @@ The Retail Discount Application is a console-based application designed to calcu
 3. User Management
 
 # Getting Started
-### 🏠 [Homepage](https://dev.azure.com/hubtel/Back-End/_git/Hubtel.Health?version=GBmaster&path=/README.md&_a=preview)
 To get a copy of this project up and running on your local machine for testing and development, you would need to have a minimum of the listed prerequisites installed on your local machine.
 
 You must have
@@ -45,10 +42,11 @@ dotnet run
 ```
 
 ### 4. Run Tests
+Tests can be run using the following command:
 ```bash
 dotnet test --collect:"XPlat Code Coverage"
 ```
-
+After running the tests, you can view the test coverage report by opening the `index.html` file in the `TestResults` folder.
 
 ## Authors
 👤 **[Whitson Dzimah](whitsonwilliam@icloud.com)**
